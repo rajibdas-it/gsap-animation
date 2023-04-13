@@ -17,6 +17,7 @@ nav {
 
 .logo {
   font-size: 1.2rem;
+  overflow: hidden;
 }
 
 .hero-section {
@@ -34,7 +35,7 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,11 +43,15 @@ nav {
 .group-text {
   display: flex;
   font-size: 2rem;
-  /* gap: 1rem; */
+}
+.group-text h2 {
+  overflow: hidden;
 }
 .group-text span {
   padding: 0.5rem;
   /* text-shadow: 42px 26px 45px rgba(0, 0, 0, 0.07); */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  display: block;
 }
 .btn {
   margin: 1rem;
